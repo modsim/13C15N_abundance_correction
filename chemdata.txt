@@ -1,0 +1,47 @@
+OPT-His:Precursor: 13C9, C10, H16, N0, O2, P0, S1 
+OPT-His:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+alpha-OPT-Orn:Precursor: 13C7, C10, H19, N0, O2, P0, S1 
+alpha-OPT-Orn:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+alpha-OPT-Lys:Precursor: 13C8, C10, H21, N0, O2, P0, S1 
+alpha-OPT-Lys:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+OPT-Asn:Precursor: 13C6, C10, H15, N0, O3, P0, S1 
+OPT-Asn:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Arg:Precursor: 13C10, C10, H21, N0, O2, P0, S1 
+OPT-Arg:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Gln:Precursor: 13C7, C10, H17, N0, O3, P0, S1 
+OPT-Gln:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Ser:Precursor: 13C4, C10, H14, N0, O3, P0, S1 
+OPT-Ser:Product Ion: 13C1, C8, H5, N0, O0, P0, S1 
+OPT-Citr:Precursor: 13C9, C10, H20, N0, O3, P0, S1 
+OPT-Citr:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Asp:Precursor: 13C5, C10, H14, N0, O4, P0, S1 
+OPT-Asp:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Hom:Precursor: 13C5, C10, H16, N0, O3, P0, S1 
+OPT-Hom:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Glu:Precursor: 13C6, C10, H16, N0, O4, P0, S1 
+OPT-Glu:Product Ion: 13C1, C8, H5, N0, O0, P0, S1 
+delta-OPT-Orn:Precursor: 13C7, C10, H19, N0, O2, P0, S1 
+delta-OPT-Orn:Product Ion: 13C1, C10, H10, N0, O0, P0, S1
+OPT-Thr:Precursor: 13C5, C10, H16, N0, O3, P0, S1 
+OPT-Thr:Product Ion: 13C1, C8, H5, N0, O0, P0, S1 
+OPT-Gly:Precursor: 13C3, C10, H12, N0, O2, P0, S1 
+OPT-Gly:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+epsilon-OPT-Lys:Precursor: 13C8, C10, H21, N0, O2, P0, S1 
+epsilon-OPT-Lys:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Ala:Precursor: 13C4, C10, H14, N0, O2, P0, S1 
+OPT-Ala:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+OPT-Tyr:Precursor: 13C10, C10, H18, N0, O3, P0, S1 
+OPT-Tyr:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Met:Precursor: 13C6, C10, H18, N0, O2, P0, S2 
+OPT-Met:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+OPT-Val:Precursor: 13C6, C10, H18, N0, O2, P0, S1 
+OPT-Val:Product Ion: 13C1, C8, H6, N0, O0, P0, S0
+OPT-Trp:Precursor: 13C13, C10, H19, N0, O2, P0, S1 
+OPT-Trp:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Phe:Precursor: 13C10, C10, H18, N0, O2, P0, S1 
+OPT-Phe:Product Ion: 13C1, C10, H10, N0, O0, P0, S1 
+OPT-Isoleu:Precursor: 13C7, C10, H20, N0, O2, P0, S1 
+OPT-Isoleu:Product Ion: 13C1, C8, H6, N0, O0, P0, S0 
+OPT-Leu:Precursor: 13C7, C10, H20, N0, O2, P0, S1 
+OPT-Leu:Product Ion: 13C1, C8, H6, N0, O0, P0, S0
+
