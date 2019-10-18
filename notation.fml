@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fluxml xmlns="http://www.13cflux.net/fluxml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.13cflux.net/fluxml http://www.13cflux.net/fluxml">
+<info>
+  <date>2019-04-06</date>
+  <modeler>info@13cflux.net, </modeler>
+  <comment>	Separation of 13C- and 15N-Isotopologues of 			Amino Acids with a Primary Amine without Mass 			Resolution by means of O-Phthalaldehyde 				Derivatization and Collision Induced 					Dissociation 
+			by
+			Jannick Kappelmann, Martin Beyss, Katharina 			Noeh, Stephan Noack
+  </comment>
+</info>
+  <reactionnetwork>
+    <metabolitepools>
+	  <pool atoms="4" cfg="C3N1" id="Ala">
+	    <annotation name="inchi">InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1</annotation>
+	  </pool>
+      <pool atoms="10" cfg="C6N4" id="Arg">
+        <annotation name="inchi">InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)/t4-/m0/s1</annotation>
+      </pool>
+      <pool atoms="6" cfg="C4N2" id="Asn">
+        <annotation name="inchi">InChI=1S/C4H8N2O3/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H2,6,7)(H,8,9)/t2-/m0/s1</annotation>
+      </pool>
+      <pool atoms="5" cfg="C4N1" id="Asp">
+        <annotation name="inchi">InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)/t2-/m0/s1</annotation>
+      </pool>
+      <pool atoms="9" cfg="C6N3" id="Citr">
+        <annotation name="inchi">InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)/t4-/m0/s1</annotation>
+      </pool>
+      <pool atoms="7" cfg="C5N2" id="Gln">
+        <annotation name="inchi">InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m0/s1</annotation>
+      </pool>
+      <pool atoms="6" cfg="C5N1" id="Glu">
+        <annotation name="inchi">InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1</annotation>
+      </pool>
+      <pool atoms="3" cfg="C2N1" id="Gly">
+        <annotation name="inchi">InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)</annotation>
+      </pool>
+      <pool atoms="9" cfg="C6N3" id="His">
+        <annotation name="inchi">InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m0/s1</annotation>
+      </pool>
+      <pool atoms="5" cfg="C4N1" id="Hom">
+        <annotation name="inchi">InChI=1S/C4H9NO3/c5-3(1-2-6)4(7)8/h3,6H,1-2,5H2,(H,7,8)/t3-/m0/s1</annotation>
+      </pool>
+      <pool atoms="7" cfg="C6N1" id="Isoleu">
+        <annotation name="inchi">InChI=1S/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t4-,5-/m0/s1</annotation>
+      </pool>
+      <pool atoms="7" cfg="C6N1" id="Leu">
+        <annotation name="inchi">InChI=1S/C6H13NO2/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t5-/m0/s1</annotation>
+      </pool>
+      <pool atoms="8" cfg="C6N2" id="Lys">
+        <annotation name="inchi">InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/t5-/m0/s1</annotation>
+      </pool>
+     <pool atoms="6" cfg="C5N1" id="Met">
+        <annotation name="inchi">InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1</annotation>
+      </pool>
+      <pool atoms="7" cfg="C5N2" id="Orn">
+        <annotation name="inchi">InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)/t4-/m0/s1</annotation>
+      </pool>
+      <pool atoms="10" cfg="C9N1" id="Phe">
+        <annotation name="inchi">InChI=1S/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1</annotation>
+      </pool>
+      <pool atoms="4" cfg="C3N1" id="Ser">
+        <annotation name="inchi">InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1</annotation>
+      </pool>
+      <pool atoms="5" cfg="C4N1" id="Thr">
+        <annotation name="inchi">InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)/t2-,3+/m1/s1</annotation>
+      </pool>
+      <pool atoms="13" cfg="C11N2" id="Trp">
+        <annotation name="inchi">InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1</annotation>
+      </pool>
+      <pool atoms="10" cfg="C9N1" id="Tyr">
+        <annotation name="inchi">InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)/t8-/m0/s1</annotation>
+      </pool>
+      <pool atoms="6" cfg="C5N1" id="Val">
+        <annotation name="inchi">InChI=1S/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1</annotation>
+      </pool>
+    </metabolitepools>
+  </reactionnetwork>
+  <configuration name="default">
+    <measurement>
+      <model>
+        <labelingmeasurement>
+          <group id="OPT-His" scale="auto">
+            <textual>His[1-9:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,1)</textual>
+          </group>
+          <group id="alpha-OPT-Orn" scale="auto">
+            <textual>Orn[1-7:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,1)</textual>
+          </group>
+          <group id="alpha-OPT-Lys" scale="auto">
+            <textual>Lys[1-8:8]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,1)</textual>
+          </group>
+          <group id="OPT-Asn" scale="auto">
+            <textual>Asn[1-6:5]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,1)</textual>
+          </group>
+          <group id="OPT-Arg" scale="auto">
+            <textual>Arg[1-10:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,0),(9,1),(10,1)</textual>
+          </group>
+          <group id="OPT-Gln" scale="auto">
+            <textual>Gln[1-7:6]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,1)</textual>
+          </group>
+          <group id="OPT-Ser" scale="auto">
+            <textual>Ser[1-4:4]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,1)</textual>
+          </group>
+          <group id="OPT-Citr" scale="auto">
+            <textual>Citr[1-9:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,1)</textual>
+          </group>
+          <group id="OPT-Asp" scale="auto">
+            <textual>Asp[1-5:5]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,1)</textual>
+          </group>
+          <group id="OPT-Hom" scale="auto">
+            <textual>Hom[1-5:5]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,1)</textual>
+          </group>
+          <group id="OPT-Glu" scale="auto">
+            <textual>Glu[1-6:6]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,1)</textual>
+          </group>
+          <group id="delta-OPT-Orn" scale="auto">
+            <textual>Orn[1-7:6]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,1)</textual>
+          </group>
+          <group id="OPT-Thr" scale="auto">
+            <textual>Thr[1-5:5]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,1)</textual>
+          </group>
+          <group id="OPT-Gly" scale="auto">
+            <textual>Gly[1-3:3]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,1)</textual>
+          </group>
+          <group id="epsilon-OPT-Lys" scale="auto">
+            <textual>Lys[1-8:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,1)</textual>
+          </group>
+          <group id="OPT-Ala" scale="auto">
+            <textual>Ala[1-4:4]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,1)</textual>
+          </group>
+          <group id="OPT-Tyr" scale="auto">
+            <textual>Tyr[1-10:10]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,0),(9,1),(10,1)</textual>
+          </group>
+          <group id="OPT-Met" scale="auto">
+            <textual>Met[1-6:6]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,1)</textual>
+          </group>
+          <group id="OPT-Val" scale="auto">
+            <textual>Val[1-6:6]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,1)</textual>
+          </group>
+          <group id="OPT-Trp" scale="auto">
+            <textual>Trp[1-13:12]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,0),(9,1),(10,0),(10,1),(11,0),(11,1),(12,0),(12,1),(13,1)</textual>
+          </group>
+          <group id="OPT-Phe" scale="auto">
+            <textual>Phe[1-10:10]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,0),(7,1),(8,0),(8,1),(9,0),(9,1),(10,1)</textual>
+          </group>
+          <group id="OPT-Isoleu" scale="auto">
+            <textual>Isoleu[1-7:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,1)</textual>
+          </group>
+          <group id="OPT-Leu" scale="auto">
+            <textual>Leu[1-7:7]#M(0,0),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1),(4,0),(4,1),(5,0),(5,1),(6,0),(6,1),(7,1)</textual>
+          </group>
+        </labelingmeasurement>
+
+      </model>
+      <data>
+		
+      </data>
+    </measurement>
+    <simulation method="auto" type="auto">
+      <variables>
+
+      </variables>
+    </simulation>
+  </configuration>
+</fluxml>
